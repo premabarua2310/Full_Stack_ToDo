@@ -1,0 +1,28 @@
+to-do folder > open cmd 
+
+npm create vite@latest
+projext name > client
+Select a framework: React
+Select a variant: JavaScript
+
+cd client
+npm install
+
+-------------- client Terminal --------------
+cd client
+
+------------- backend terminal -------------
+cd backend
+npm init -y
+
+------------------ package.json --------------
+"scripts": {
+    "dev": "nodemon Server.ja",
+    "start": "node Server.js"
+  },
+
+
+------------- backend terminal -------------
+npm i -g nodemon
+npm i express mongoose dotenv cors
+npm run dev
